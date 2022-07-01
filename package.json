@@ -1,0 +1,29 @@
+{
+  "name": "pet-project--01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "poststart": "echo \"poststart\" && exit 1",
+    "prestart": "echo \"prestart\"",
+    "start2": "echo \"start\"",
+    "script1": "echo \"script1\"",
+    "script2": "echo \"script2\"",
+    "script3": "npm run script1 && npm run script2",
+    "start": "parcel ./_clean_html/index.html",
+    "build": "parcel build ./_clean_html/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanProkh/pet-project--01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanProkh/pet-project--01/issues"
+  },
+  "homepage": "https://github.com/IvanProkh/pet-project--01#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
