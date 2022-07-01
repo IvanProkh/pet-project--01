@@ -45,3 +45,7 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+
+
+
+console.log('ЭТО КОНСОЛЬ')
